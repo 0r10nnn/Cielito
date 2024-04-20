@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mensaje de Amor</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="contenedor-mensajes">
+    <div id="mensaje1" class="mensaje visible">
+      <div class="mensaje-contenido">
+        <h1>¡¿Qué tal princesa?!</h1>
+        <button class="boton-1" onclick="mostrarMensaje('mensaje2')">Por aquí...</button>
+      </div>
+    </div>
+
+    <div id="mensaje2" class="mensaje">
+        <div class="mensaje-contenido">
+            <h1>Espero que te estés sintiendo mejor, aún espero por tí y tu recuperación</h1>
+            <button class="boton-2" onclick="mostrarMensaje('mensaje3')">Aquí, mon amour...</button>
+        </div>
+    </div>
+
+    <div id="mensaje3" class="mensaje">
+      <div class="mensaje-contenido">
+        <h1>Esto solo es una mensaje para recordarte...</h1>
+        <button class="boton-3" onclick="mostrarMensaje('mensaje4')">...</button>
+      </div>
+    </div>
+
+    <div id="mensaje4" class="mensaje">
+      <div class="mensaje-contenido">
+        <h1>🌟💖🌟Te amo🌟💖🌟</h1>
+        <p>🌟💖💖🌟Con todo mi ser🌟💖💖🌟</p>
+        <button class="boton-4" onclick="mostrarMensaje('mensaje5')">Un poco más, mi niña</button>
+      </div>
+    </div>
+
+    <div id="mensaje5" class="mensaje">
+        <div class="mensaje-contenido">
+            <h1>Espero con ansias poder verte pronto</h1>
+        </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
+

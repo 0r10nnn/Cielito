@@ -1,0 +1,99 @@
+body {
+  background-image: url('WhatsApp\ Image\ 2024-04-11\ at\ 21.09.49.jpeg'); /* Ruta de la imagen de fondo */
+  background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
+  background-position: center; /* Centra la imagen en el fondo */
+  font-family: 'Amor de Cielo', cursive;
+  display: flex;
+  flex-direction: column; /* Establece la dirección de flexión en columna */
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Establece la altura mínima del cuerpo como el 100% del alto de la ventana */
+  margin: 0;
+}
+
+.contenedor-mensajes {
+  text-align: center;
+  height: 100%;
+}
+
+.mensaje {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px;
+  transition: opacity 0.5s ease;
+  opacity: 0;
+  max-width: 400px;
+}
+
+.visible {
+  opacity: 1;
+}
+
+.mensaje-contenido {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+#mensaje1 {
+  background-color: #FFA07A;
+}
+
+#mensaje2 {
+  background-color: #ff7f4d;
+}
+
+#mensaje3 {
+  background-color: #7d58c7;
+}
+
+#mensaje4 {
+  background-color: #6741b4;
+}
+
+#mensaje5 {
+  background-color: #53368d;
+}
+
+button {
+  background-color: #FFA07A; /* Naranja */
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 10px;
+  color: white; /* Texto blanco */
+}
+
+.boton-1 {
+  background-color: #bd765a; 
+  color: white;
+}
+
+.boton-2 {
+  background-color: #b85c38;
+  color: white;
+}
+
+.boton-3{
+  background-color: #4e377c;
+  color:white;
+}
+
+.boton-4{
+  background-color: #412872;
+  color: white;
+}
+
+.boton-5{
+  background-color: #2e1e4e;
+  color: white;
+}
+
+.contenedor-mensajes {
+  text-align: center;
+  margin-top: 3%; /* Ajusta según sea necesario */
+  margin-bottom: 3%; /* Ajusta según sea necesario */
+}
